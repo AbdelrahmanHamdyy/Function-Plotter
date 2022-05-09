@@ -13,6 +13,7 @@ class UI(QDialog):
         self.function = self.findChild(QLineEdit, "Function")
         self.minVal = self.findChild(QLineEdit, "Min")
         self.maxVal = self.findChild(QLineEdit, "Max")
+        self.show()
 
     def Run(self):
         try:
@@ -27,5 +28,4 @@ class UI(QDialog):
 if __name__ == "__main__":
     application = QtWidgets.QApplication(sys.argv)
     currWindow = UI()
-    currWindow.show()
     sys.exit(application.exec_())

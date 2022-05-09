@@ -6,7 +6,7 @@ class Validation:
     def __init__(self):
         print("Validation Class")
 
-    def Validate(self, Exp):
+    def Validate(Exp):
         Exp = Exp.replace(" ", "")
         if Exp == "":
             raise ValueError("Function field is empty!")
@@ -17,7 +17,7 @@ class Validation:
         Exp = Exp.replace('^', '**').replace('X', 'x')
         return Exp
 
-    def validateMaxMinValues(self, Min, Max):
+    def validateMaxMinValues(Min, Max):
         if Min >= Max:
             raise ValueError("Maximum value for x must be greater than Minimum")
 
@@ -30,7 +30,7 @@ class Validation:
         except:
             raise ValueError("Max & Min values must be integer")
 
-    def validateDivisionByZero(self, exp, minValue, maxValue):
+    def validateDivisionByZero(exp, minValue, maxValue):
         if exp.find('/X') != -1 or exp.find('/x') != -1 and minValue <= 0 and maxValue >= 0:
             return False
         return True
