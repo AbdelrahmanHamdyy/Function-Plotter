@@ -1,4 +1,5 @@
 import re
+import sys
 
 
 class Validation:
@@ -29,3 +30,8 @@ class Validation:
             return Num
         except:
             raise ValueError("Max & Min values must be integer")
+
+    def validateDivisionByZero(exp, minValue, maxValue):
+        if exp.find('/X') != -1 or exp.find('/x') != -1 and minValue <= 0 and maxValue >= 0:
+            return False
+        return True

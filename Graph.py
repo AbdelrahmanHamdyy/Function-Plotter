@@ -22,8 +22,12 @@ class Graph:
 
     def getYRange(self):
         y_list = []
+        CheckDivByZero = Validation.validateDivisionByZero(self.function, self.minVal, self.maxVal)
         for i in range(self.minVal, self.maxVal):
-            y_list.append(self.getFunc(i))
+            if CheckDivByZero == False and i == 0:
+                y_list.append(float('inf'))
+            else:
+                y_list.append(self.getFunc(i))
         return y_list
 
     def Plot(self):
