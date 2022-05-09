@@ -181,7 +181,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>Enter the function</string>
+                <string>Enter the function: </string>
                </property>
               </widget>
              </item>
@@ -207,7 +207,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>Maximum value for x</string>
+                <string>Maximum value for x = </string>
                </property>
               </widget>
              </item>
@@ -255,7 +255,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>Minimum value for x</string>
+                <string>Minimum value for x = </string>
                </property>
               </widget>
              </item>
