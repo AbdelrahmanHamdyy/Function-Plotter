@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1037</width>
+    <width>1073</width>
     <height>687</height>
    </rect>
   </property>
@@ -181,7 +181,7 @@
                 </font>
                </property>
                <property name="text">
-                <string>Enter the function: </string>
+                <string>Enter a valid function: </string>
                </property>
               </widget>
              </item>
@@ -203,7 +203,7 @@
                <property name="font">
                 <font>
                  <family>Times New Roman</family>
-                 <pointsize>14</pointsize>
+                 <pointsize>16</pointsize>
                 </font>
                </property>
                <property name="text">
@@ -221,7 +221,7 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>700</width>
+                 <width>800</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -251,7 +251,7 @@
                <property name="font">
                 <font>
                  <family>Times New Roman</family>
-                 <pointsize>14</pointsize>
+                 <pointsize>16</pointsize>
                 </font>
                </property>
                <property name="text">
@@ -425,7 +425,7 @@
              </font>
             </property>
             <property name="text">
-             <string>- Make sure you enter a valid function</string>
+             <string>- Make sure you type in a valid function</string>
             </property>
            </widget>
           </item>
@@ -518,7 +518,7 @@
              </font>
             </property>
             <property name="text">
-             <string>as well as valid limits for x</string>
+             <string>as well as valid limits for x (min &lt; max)</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -538,7 +538,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1037</width>
+     <width>1073</width>
      <height>26</height>
     </rect>
    </property>
