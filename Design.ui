@@ -297,7 +297,7 @@
               </spacer>
              </item>
              <item row="5" column="2">
-              <widget class="QLineEdit" name="lineEdit_10">
+              <widget class="QLineEdit" name="Max">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -384,7 +384,7 @@
               </spacer>
              </item>
              <item row="1" column="2">
-              <widget class="QLineEdit" name="lineEdit_7">
+              <widget class="QLineEdit" name="Function">
                <property name="minimumSize">
                 <size>
                  <width>100</width>
@@ -432,7 +432,7 @@
               </spacer>
              </item>
              <item row="3" column="2">
-              <widget class="QLineEdit" name="lineEdit_8">
+              <widget class="QLineEdit" name="Min">
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -485,7 +485,7 @@
             </property>
             <layout class="QGridLayout" name="gridLayout_3">
              <item row="0" column="0">
-              <widget class="QPushButton" name="pushButton">
+              <widget class="QPushButton" name="Plot">
                <property name="maximumSize">
                 <size>
                  <width>140</width>

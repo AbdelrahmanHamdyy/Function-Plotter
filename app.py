@@ -1,5 +1,5 @@
 from PyQt5 import QtWidgets, uic, QtGui
-from PyQt5.QtWidgets import QWidget, QDialog, QMainWindow
+from PyQt5.QtWidgets import QWidget, QDialog, QMainWindow, QPushButton, QLineEdit
 from Graph import *
 from ShowMsg import *
 import sys
@@ -9,16 +9,18 @@ class UI(QDialog):
     def __init__(self):
         super(UI, self).__init__()
         uic.loadUi('Design.ui', self)
-        self.plotButton.clicked.connect(self.on_click)
+        self.findChild(QPushButton, "Plot").clicked.connect(self.Run)
+        self.function = self.findChild(QLineEdit, "Function")
+        self.minVal = self.findChild(QLineEdit, "Min")
+        self.maxVal = self.findChild(QLineEdit, "Max")
 
-    def on_click(self):
+    def Run(self):
         try:
-            p1 = Plot(self.func.text(), self.minValue.text(), self.maxValue.text())
-            p1.plotFunction()
-
-        except ValueError as err:
-            err_message = err.args[0]
-            PopUpMessage(self, err_message)
+            P = Graph(self.function.text(), self.minVal.text(), self.maxVal.text())
+            P.Plot()
+        except ValueError as error:
+            ErrorMessage = error.args[0]
+            ShowError(self, ErrorMessage)
             return
 
 
