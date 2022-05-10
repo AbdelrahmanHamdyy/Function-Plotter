@@ -19,6 +19,7 @@ class Graph:
     # Range of x values
     def getXRange(self):
         x_list = []
+        self.maxVal = self.maxVal + 1
         for i in range(self.minVal, self.maxVal):
             x_list.append(i)
         return x_list
