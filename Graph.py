@@ -44,7 +44,7 @@ class Graph:
         plt.plot(x_plot, y_plot, color="red", linewidth=1.5, label=self.function)
         # Set Labels
         plt.xlabel("X")
-        plt.ylabel("Y")
+        plt.ylabel("Y = F(X)")
         # Style
         plt.style.use("seaborn-dark")
         # Grid & Show
