@@ -23,7 +23,7 @@ class Validation:
 
     # Maximum must be greater than Minimum
     def validateMaxMinValues(Min, Max):
-        if Min >= Max:
+        if float(Min) >= float(Max):
             raise ValueError("Maximum value for x must be greater than Minimum")
 
     # Check for integer input fields only
