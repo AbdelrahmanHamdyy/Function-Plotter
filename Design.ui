@@ -25,9 +25,9 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -61,18 +61,18 @@
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -99,9 +99,9 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -135,18 +135,18 @@
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -173,9 +173,9 @@
      <colorrole role="Button">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -209,18 +209,18 @@
      <colorrole role="Base">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
      <colorrole role="Window">
       <brush brushstyle="SolidPattern">
        <color alpha="255">
-        <red>20</red>
-        <green>10</green>
-        <blue>63</blue>
+        <red>67</red>
+        <green>16</green>
+        <blue>21</blue>
        </color>
       </brush>
      </colorrole>
@@ -241,7 +241,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">* {
-	background-color: rgb(20, 10, 63);
+	background-color: rgb(67, 16, 21);
 	color: white;
 }</string>
   </property>
@@ -276,6 +276,12 @@
            <height>16777215</height>
           </size>
          </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
          <property name="styleSheet">
           <string notr="true">#frame_3 {
 	border: 2px solid;
@@ -296,7 +302,9 @@
              <font>
               <family>Times New Roman</family>
               <pointsize>14</pointsize>
+              <weight>75</weight>
               <italic>true</italic>
+              <bold>true</bold>
               <underline>true</underline>
              </font>
             </property>
@@ -527,10 +535,10 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Min {
-	background-color: rgba(75, 58, 58, 0.615);
+	background-color: #333333;
 	border: 2px solid white;
 	border-radius: 10px;
-	padding: 3px;
+	padding: 4px;
 }</string>
                </property>
               </widget>
@@ -557,10 +565,10 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Max {
-	background-color: rgba(75, 58, 58, 0.615);
+	background-color: #333333;
 	border: 2px solid white;
 	border-radius: 10px;
-	padding: 3px;
+	padding: 4px;
 }</string>
                </property>
               </widget>
@@ -652,13 +660,13 @@
               <widget class="QLineEdit" name="Function">
                <property name="minimumSize">
                 <size>
-                 <width>300</width>
+                 <width>350</width>
                  <height>30</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>500</width>
+                 <width>700</width>
                  <height>16777215</height>
                 </size>
                </property>
@@ -670,10 +678,10 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Function {
-	background-color: rgba(75, 58, 58, 0.615);
+	background-color: #333333;
 	border: 2px solid white;
 	border-radius: 10px;
-	padding: 3px;
+	padding: 4px;
 }</string>
                </property>
               </widget>
@@ -765,7 +773,7 @@
 	border: 1px solid;
 	border-radius: 15px;
 	border-color: white;
-	background-color: rgb(20, 7, 108);
+	background-color: black;
 }</string>
                </property>
                <property name="text">
