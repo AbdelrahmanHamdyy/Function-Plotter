@@ -542,7 +542,7 @@
 }</string>
                </property>
                <property name="clearButtonEnabled">
-                <bool>true</bool>
+                <bool>false</bool>
                </property>
               </widget>
              </item>
@@ -575,7 +575,7 @@
 }</string>
                </property>
                <property name="clearButtonEnabled">
-                <bool>true</bool>
+                <bool>false</bool>
                </property>
               </widget>
              </item>
@@ -782,7 +782,7 @@
 	border: 1px solid;
 	border-radius: 15px;
 	border-color: white;
-	background-color: black;
+	background-color: rgb(108, 29, 21);
 }</string>
                </property>
                <property name="text">
