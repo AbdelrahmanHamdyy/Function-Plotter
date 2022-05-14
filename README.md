@@ -25,7 +25,7 @@
 <h3 href="#installation">Installation</h3>
 <ol>
   <li><strong><em>Clone the repository</em></strong>
-    <blockquote>$ git clone https://github.com/AhmedLotfy02/Function-Plotter1</blockquote>
+    <blockquote>$ git clone https://github.com/abdelrahman0123/Function-Plotter</blockquote>
   </li>
   <li> 
   <strong><em>Navigate to repository directory
@@ -44,8 +44,6 @@
   <li><strong><em>Run the Function Plotter </em></strong>
        <blockquote>$python app.py </blockquote>
   </li>
-    <li><strong><em>Running unit tests </em></strong>
-    <blockquote>$python test.py
 </blockquote>
   </li>
  
