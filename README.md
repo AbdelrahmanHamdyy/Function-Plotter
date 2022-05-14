@@ -8,13 +8,15 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
+ <img src="https://github.com/abdelrahman0123/Function-Plotter/blob/main/screenshots/task1.jpg"
+ 
 </div>
 
 <h3>Built With: </h3>
  <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://build-system.fman.io/pyqt5-tutorial">PyQt5</a></li>
-  <li><a href="https://matplotlib.org/">matplotlib</a></li>
+  <li><a href="https://matplotlib.org/">Matplotlib</a></li>
  </ul>
  
 <h3>Getting Started</h3>
@@ -30,7 +32,7 @@
   <li> 
   <strong><em>Navigate to repository directory
 </em></strong>
-    <blockquote>$ cd Function-Plotter1</blockquote>
+    <blockquote>$ cd Function-Plotter</blockquote>
   </li>
   <li> 
   <strong><em>Install dependencies
