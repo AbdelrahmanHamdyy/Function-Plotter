@@ -354,7 +354,7 @@
              <enum>QFrame::NoFrame</enum>
             </property>
             <property name="text">
-             <string>Function Format: 5*x + 2^x - 6 / x</string>
+             <string>Function Format: 5*x + 2^x - 6/x</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -535,7 +535,7 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Min {
-	background-color: #262626;
+	background-color: #212c26;
 	border: 2px solid white;
 	border-radius: 10px;
 	padding: 5px;
@@ -568,7 +568,7 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Max {
-	background-color: #262626;
+	background-color: #212c26;
 	border: 2px solid white;
 	border-radius: 10px;
 	padding: 5px;
@@ -732,7 +732,7 @@
                </property>
                <property name="styleSheet">
                 <string notr="true">#Function {
-	background-color: #262626;
+	background-color: #212c26;
 	border: 2px solid white;
 	border-radius: 10px;
 	padding: 5px;
@@ -782,7 +782,12 @@
 	border: 1px solid;
 	border-radius: 15px;
 	border-color: white;
-	background-color: rgb(108, 29, 21);
+	background-color: rgb(22, 55, 55);
+	transition: 0.5s;
+}
+
+#Plot:hover {
+	background-color: rgb(69, 67, 67);
 }</string>
                </property>
                <property name="text">
