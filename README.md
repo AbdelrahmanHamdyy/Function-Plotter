@@ -8,7 +8,7 @@
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
- <img src="https://github.com/abdelrahman0123/Function-Plotter/blob/main/screenshots/task1.jpg"
+ <img src="https://github.com/abdelrahman0123/Function-Plotter/blob/main/screenshots/task1.jpg" alt="Task 1">
  
 </div>
 
