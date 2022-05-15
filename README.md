@@ -19,16 +19,16 @@
   <li><a href="https://matplotlib.org/">Matplotlib</a></li>
  </ul>
 
-# 📙 About
+## 📙 About
 
 GUI program that plots arbitrary user-entered function 
 
-# 📝 Description
+## 📝 Description
 * Take a function of x from the user, e.g., 5*x^3 + 2*x. 
 * Take min and max values of x from the user. 
 * The following operators are supported: + - / * ^.
 
-# 🏁 Getting Started
+## 🏁 Getting Started
 <blockquote>
   <p>This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructuins.
  </p>
@@ -53,7 +53,7 @@ GUI program that plots arbitrary user-entered function
 <h3 href="#Running">Running</h3>
 <ol>
   <li><strong><em>Run the Function Plotter </em></strong>
-       <blockquote>$python app.py </blockquote>
+       <blockquote>$ python app.py </blockquote>
   </li>
 </blockquote>
   </li>
@@ -63,7 +63,8 @@ GUI program that plots arbitrary user-entered function
 <h2 href="#structure">File Structure</h2>
  <div> 
   <pre>
-Function-Plotter1
+Function-Plotter
+├── screenshots
 ├── Design.ui
 ├── Graph.py
 ├── LICENSE
@@ -72,38 +73,27 @@ Function-Plotter1
 ├── ShowMsg.py
 ├── Validation.py
 ├── app.py
-├── screenshots
   </pre>
 </div>
 
-<!--
-<h2 href="#screenshots">ScreenShots</h2>
-<ol>
- <li>
-  <h4>Program Interface</h4>
-  
-  ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/1.PNG)
+### Screenshots
 
- </li>
- <li>
-  <h4>Function Field Validations</h4>
-  
-  ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/2.PNG)
-  ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/3.PNG)
- </li>
- <li>
-  <h4>Max&Min Fields Validations</h4>
-  
-  ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/4.PNG)
-  ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/5.PNG)
-    ![alt text](https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/7.PNG)
- </li>
- 
- <li> 
- <h4>Plotting Function Result</h4> 
-  <img src="https://github.com/AhmedLotfy02/Function-Plotter1/blob/main/screenshots/6.PNG">
- </li>
-</ol> -->
+#### Main Screen
+
+![start](screenshots/1.jpg)
+
+#### Graphs
+
+![graph1](screenshots/2.jpg)
+![graph2](screenshots/3.jpg)
+![graph3](screenshots/4.jpg)
+
+#### Error messages
+![Function1](screenshots/5.jpg)
+![Function2](screenshots/6.jpg)
+![Max](screenshots/7.jpg)
+![Min](screenshots/8.jpg)
+![MaxX<MinX](screenshots/9.jpg)
 
 ## Contributors
 
