@@ -12,7 +12,7 @@
  
 </div>
 
-<h3>Built With: </h3>
+## 💻 Built With
  <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://build-system.fman.io/pyqt5-tutorial">PyQt5</a></li>
@@ -30,7 +30,7 @@ GUI program that plots arbitrary user-entered function
 
 ## 🏁 Getting Started
 <blockquote>
-  <p>This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructuins.
+  <p>This is a list of needed instructions to set up your project locally, to get a local copy up and running follow these instructuins.
  </p>
 </blockquote>
 <h3 href="#installation">Installation</h3>
