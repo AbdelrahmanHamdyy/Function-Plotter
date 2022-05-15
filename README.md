@@ -80,20 +80,22 @@ Function-Plotter
 
 #### Main Screen
 
-![start](screenshots/1.jpg)
+![start](screenshots/1.jpeg)
 
 #### Graphs
 
-![graph1](screenshots/2.jpg)
-![graph2](screenshots/3.jpg)
-![graph3](screenshots/4.jpg)
+![graph1](screenshots/7.jpeg)
+![graph2](screenshots/8.jpeg)
+![graph3](screenshots/9.jpeg)
+![graph4](screenshots/10.jpeg)
+![graph5](screenshots/11.jpeg)
 
 #### Error messages
-![Function1](screenshots/5.jpg)
-![Function2](screenshots/6.jpg)
-![Max](screenshots/7.jpg)
-![Min](screenshots/8.jpg)
-![MaxX<MinX](screenshots/9.jpg)
+![Error1](screenshots/2.jpeg)
+![Error2](screenshots/3.jpeg)
+![Error3](screenshots/4.jpeg)
+![Error4](screenshots/5.jpeg)
+![Error5](screenshots/6.jpeg)
 
 ## Contributors
 
