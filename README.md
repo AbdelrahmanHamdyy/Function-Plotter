@@ -16,6 +16,7 @@
  <ul>
   <li><a href="https://www.python.org/">Python</a></li>
   <li><a href="https://build-system.fman.io/pyqt5-tutorial">PyQt5</a></li>
+  <li><a href="https://docs.python.org/3/library/unittest.html">Unittest</a></li>
   <li><a href="https://matplotlib.org/">Matplotlib</a></li>
  </ul>
 
