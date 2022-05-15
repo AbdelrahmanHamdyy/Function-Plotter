@@ -90,6 +90,9 @@ Function-Plotter
 ![graph3](screenshots/9.jpeg)
 ![graph4](screenshots/10.jpeg)
 ![graph5](screenshots/11.jpeg)
+![graph6](screenshots/12.jpeg)
+![graph7](screenshots/13.jpeg)
+
 
 #### Error messages
 ![Error1](screenshots/2.jpeg)
