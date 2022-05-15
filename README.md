@@ -18,8 +18,17 @@
   <li><a href="https://build-system.fman.io/pyqt5-tutorial">PyQt5</a></li>
   <li><a href="https://matplotlib.org/">Matplotlib</a></li>
  </ul>
- 
-<h3>Getting Started</h3>
+
+# 📙 About
+
+GUI program that plots arbitrary user-entered function 
+
+# 📝 Description
+* Take a function of x from the user, e.g., 5*x^3 + 2*x. 
+* Take min and max values of x from the user. 
+* The following operators are supported: + - / * ^.
+
+# 🏁 Getting Started
 <blockquote>
   <p>This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructuins.
  </p>
