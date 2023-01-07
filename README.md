@@ -37,7 +37,7 @@ GUI program that plots arbitrary user-entered function
 <h3 href="#installation">Installation</h3>
 <ol>
   <li><strong><em>Clone the repository</em></strong>
-    <blockquote>$ git clone https://github.com/abdelrahman0123/Function-Plotter</blockquote>
+    <blockquote>$ git clone https://github.com/AbdelrahmanHamdyy/Function-Plotter</blockquote>
   </li>
   <li> 
   <strong><em>Navigate to repository directory
